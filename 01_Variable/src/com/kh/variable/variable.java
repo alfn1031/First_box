@@ -227,7 +227,7 @@ public class variable {
 		//START_YEAR = 2026;
 		
 		
-		//호오...
+		
 		
 		
 		
