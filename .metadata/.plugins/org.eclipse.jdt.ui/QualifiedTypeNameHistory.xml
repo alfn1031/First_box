@@ -13,4 +13,9 @@
     <fullyQualifiedTypeName name="com.kh.chap02.model.vo.AosGame"/>
     <fullyQualifiedTypeName name="com.kh.chap02.model.vo.FpsGame"/>
     <fullyQualifiedTypeName name="com.kh.chap02.model.vo.RpgGame"/>
+    <fullyQualifiedTypeName name="com.kh.vips.model.vo.Chef"/>
+    <fullyQualifiedTypeName name="com.kh.chap03.model.vo.MainChef"/>
+    <fullyQualifiedTypeName name="com.kh.chap03.model.vo.Saladchef"/>
+    <fullyQualifiedTypeName name="com.kh.chap03.model.vo.SaladChef"/>
+    <fullyQualifiedTypeName name="com.kh.chap03.model.vo.Chef"/>
 </qualifiedTypeNameHistroy>
