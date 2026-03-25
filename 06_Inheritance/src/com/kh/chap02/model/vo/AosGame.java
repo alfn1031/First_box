@@ -7,7 +7,7 @@ package com.kh.chap02.model.vo;
 public class AosGame extends Game {
 	private int characterCount;
 
-	public AosGame() {
+	public AosGame(String gameName, String publisher, int characterCount) {
 		// super(); // Game();
 		System.out.println("나는 자식클래스다");
 	}
