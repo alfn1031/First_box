@@ -18,4 +18,14 @@
     <fullyQualifiedTypeName name="com.kh.chap03.model.vo.Saladchef"/>
     <fullyQualifiedTypeName name="com.kh.chap03.model.vo.SaladChef"/>
     <fullyQualifiedTypeName name="com.kh.chap03.model.vo.Chef"/>
+    <fullyQualifiedTypeName name="com.kh.chap05.model.vo.Soup"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="com.kh.controller.UncheckedExeption"/>
+    <fullyQualifiedTypeName name="java.lang.ArithmeticException"/>
+    <fullyQualifiedTypeName name="java.lang.NegativeArraySizeException"/>
+    <fullyQualifiedTypeName name="java.util.InputMismatchException"/>
+    <fullyQualifiedTypeName name="java.lang.ArrayIndexOutOfBoundsException"/>
+    <fullyQualifiedTypeName name="java.io.IOException"/>
+    <fullyQualifiedTypeName name="com.kh.controller.CheckedException"/>
+    <fullyQualifiedTypeName name="javax.management.RuntimeErrorException"/>
 </qualifiedTypeNameHistroy>

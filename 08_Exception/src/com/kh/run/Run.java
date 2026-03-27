@@ -37,7 +37,10 @@ public class Run {
 		
 		
 		CheckedException ce = new CheckedException();
-		ce.readString();
+		// ce.readString();
+		
+		
+		
 		
 	}
 	
