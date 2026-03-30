@@ -4,11 +4,9 @@
     <fullyQualifiedTypeName name="com.kh.chap02.loop.LoopFor"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="com.kh.chap01.condition.ConditionIf"/>
-    <fullyQualifiedTypeName name="com.kh.run.Run"/>
     <fullyQualifiedTypeName name="com.kh.array.Array"/>
     <fullyQualifiedTypeName name="com.kh.chap04.view.FieldView"/>
     <fullyQualifiedTypeName name="com.kh.chap04.controller.FieldController"/>
-    <fullyQualifiedTypeName name="java.util.Arrays"/>
     <fullyQualifiedTypeName name="com.kh.chap05.model.vo.Member"/>
     <fullyQualifiedTypeName name="com.kh.chap02.model.vo.AosGame"/>
     <fullyQualifiedTypeName name="com.kh.chap02.model.vo.FpsGame"/>
@@ -23,9 +21,20 @@
     <fullyQualifiedTypeName name="com.kh.controller.UncheckedExeption"/>
     <fullyQualifiedTypeName name="java.lang.ArithmeticException"/>
     <fullyQualifiedTypeName name="java.lang.NegativeArraySizeException"/>
-    <fullyQualifiedTypeName name="java.util.InputMismatchException"/>
-    <fullyQualifiedTypeName name="java.lang.ArrayIndexOutOfBoundsException"/>
-    <fullyQualifiedTypeName name="java.io.IOException"/>
     <fullyQualifiedTypeName name="com.kh.controller.CheckedException"/>
+    <fullyQualifiedTypeName name="java.util.InputMismatchException"/>
+    <fullyQualifiedTypeName name="cim.kh.sw.view.SwitchView"/>
+    <fullyQualifiedTypeName name="cim.kh.sw.util.SwitchUtilImpl"/>
+    <fullyQualifiedTypeName name="cim.kh.sw.util.SwitchUtil"/>
     <fullyQualifiedTypeName name="javax.management.RuntimeErrorException"/>
+    <fullyQualifiedTypeName name="com.kh.run.Run"/>
+    <fullyQualifiedTypeName name="java.lang.RuntimeException"/>
+    <fullyQualifiedTypeName name="java.io.FileNotFoundException"/>
+    <fullyQualifiedTypeName name="java.util.Date"/>
+    <fullyQualifiedTypeName name="java.io.FileOutputStream"/>
+    <fullyQualifiedTypeName name="java.io.Serializable"/>
+    <fullyQualifiedTypeName name="java.io.IOException"/>
+    <fullyQualifiedTypeName name="java.lang.ClassNotFoundException"/>
+    <fullyQualifiedTypeName name="java.lang.ArrayIndexOutOfBoundsException"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
 </qualifiedTypeNameHistroy>

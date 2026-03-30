@@ -1,5 +1,8 @@
 package com.kh.controller;
 
+import java.util.Arrays;
+import java.util.StringTokenizer;
+
 import com.kh.run.Run;
 
 public class StringController {
@@ -142,6 +145,38 @@ public class StringController {
 		}
 		new String(chArr).chars().mapToObj(c ->(char)c).forEach(System.out::println);
 		System.out.println(String.valueOf(chArr));
+		
+		String replaceStr = "KH아카데미";
+		// 문자열.replace(Str.str) : String
+		System.out.println(replaceStr.replace("KH", "더조은"));
+		
+		// 문자열.toUpperCase() -> 전부 대문자로 변환
+		// 문자열.toLowerCase() -> 전부 소문자로 변환
+		String lowerStr = "abcd";
+		String upperStr = "ABCD";
+		System.out.println(lowerStr.toUpperCase());
+		System.out.println(upperStr.toLowerCase());
+		
+		// 문자열 분리시키기
+		String split = "갈비,갈비찜,곽만근갈비찜,곽만근얼큰갈비탕";
+		
+		String[] galbi = split.split(",");
+		System.out.println(Arrays.toString(galbi));
+		
+		// java.util.StringTokenizer 클래스를 이용하는 방법
+		StringTokenizer stn = new StringTokenizer(split, ",");
+		/*
+		System.out.println(stn.nextToken());
+		System.out.println(stn.nextToken());
+		System.out.println(stn.nextToken());
+		System.out.println(stn.nextToken());
+		*/
+		while(stn.hasMoreTokens()) { // 남아있는 토큰이 있다면 true / 없다면 false로 반환
+			System.out.println(stn.nextToken());
+		}
+		
+		
+		
 		
 	}
 	
