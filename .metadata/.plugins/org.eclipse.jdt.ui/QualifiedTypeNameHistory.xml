@@ -22,7 +22,6 @@
     <fullyQualifiedTypeName name="java.lang.ArithmeticException"/>
     <fullyQualifiedTypeName name="java.lang.NegativeArraySizeException"/>
     <fullyQualifiedTypeName name="com.kh.controller.CheckedException"/>
-    <fullyQualifiedTypeName name="java.util.InputMismatchException"/>
     <fullyQualifiedTypeName name="cim.kh.sw.view.SwitchView"/>
     <fullyQualifiedTypeName name="cim.kh.sw.util.SwitchUtilImpl"/>
     <fullyQualifiedTypeName name="cim.kh.sw.util.SwitchUtil"/>
@@ -41,4 +40,6 @@
     <fullyQualifiedTypeName name="java.util.Map.Entry"/>
     <fullyQualifiedTypeName name="java.io.FileOutputStream"/>
     <fullyQualifiedTypeName name="java.io.IOException"/>
+    <fullyQualifiedTypeName name="java.net.InetAddress"/>
+    <fullyQualifiedTypeName name="java.util.InputMismatchException"/>
 </qualifiedTypeNameHistroy>
