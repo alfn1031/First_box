@@ -45,8 +45,13 @@ public class FootballController {
 		return fs.deleteFootballPlayer(id);
 	}
 	
+	public void outputFootballPlayer() {
+		fs.outputFootballPlayer();
+	}
 	
-	
+	public List<FootballPlayer> findByKeyword(String keyword) {
+		return fs.findByKeyword(keyword);
+	}
 	
 	
 	

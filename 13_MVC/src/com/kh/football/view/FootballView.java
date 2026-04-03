@@ -13,6 +13,7 @@ import com.kh.football.model.vo.FootballPlayer;
 public class FootballView {
 	private Scanner sc = new Scanner(System.in);
 	private FootballController fc = new FootballController();
+	private BoardView bv = new BoardView();
 	
 	// 프로그램 실행 시 보여줄 화면을 출력해주는 기능
 	public void mainMenu() {
@@ -32,6 +33,9 @@ public class FootballView {
 			System.out.println("4. 축구선수 삭제하기");
 			// 축구선수 id 받아서 한명만 지우기
 			// 축구선수 검색하기, 축구선수 목록 파일로 저장하기 - 보류
+			System.out.println("5. 축구선수 정보 파일로 출력하기");
+			System.out.println("6. 축구선수 검색하기");
+			System.out.println("7. 축구 이야기 게시판");
 			System.out.println("0. 프로그램 종료하기");
 			System.out.println();
 			System.out.print("어떤 기능을 이용하시겠습니까? > ");
@@ -50,6 +54,9 @@ public class FootballView {
 			case 2 : addFootballPlayer(); break;
 			case 3 : updateFootballPlayer(); break;
 			case 4 : deleteFootballPlayer(); break;
+			case 5 : fc.outputFootballPlayer(); break;
+			case 6 : findFootballPlayer(); break;
+			case 7 : bv.boardMenu();
 			case 0 : System.out.println("프로그램을 종료합니다"); sc.close(); return;
 			default : System.out.println("없는 메뉴입니다. 다시 선택해주세요");
 			}
@@ -264,6 +271,42 @@ public class FootballView {
 			System.out.println("id를 찾을 수 없습니다.");
 		}		
 	}
+	
+	private void findFootballPlayer() {
+		
+		System.out.println("선수 검색 서비스입니다.");
+		// 사용자에게 이름을 받아서
+		// 똑같은 이름의 선수 다 찾기
+		// 입력값이 이름에 포함되어있는 선수 찾기
+		System.out.print("찾고싶은 이름의 키워드를 입력해주세요 > ");
+		String keyword = sc.nextLine();
+		// 일단 View가 할 일이 끝났구나~
+		// 컨트롤러레게 요청
+		List<FootballPlayer> players = fc.findByKeyword(keyword);
+		// 응답이 돌아온 상황
+		// 검색 결과가 있을수도 / 없을수도 있음
+		// 검색 결과가 한개일수도 / 백개일수도 있음
+		
+		if(players.isEmpty()) {
+			System.out.println("=====================");
+			System.out.println("검색결과가 존재하지 않습니다");			
+			System.out.println("=====================");
+		} else {
+			System.out.println();
+			System.out.println(keyword + "검색결과입니다.");
+			for(FootballPlayer player : players) {
+				System.out.println("이름 : " + player.getName()
+								   + ", 포지션 : " + player.getPosition()
+								   + ", 등번호 : " + player.getBackNmber());
+			}
+			System.out.println();
+		}
+		
+		
+	}
+	
+	
+	
 }
 
 
