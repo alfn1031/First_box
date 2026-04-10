@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class InputKeybord {
 	/*
-	 *  키보드를 이용해서 프로그램을 사용하느 사용자에게 값을 입력받아 볼 것.
+	 *  키보드를 이용해서 프로그램을 사용하는 사용자에게 값을 입력받아 볼 것.
 	 *  자바에서 제공해주는 Scanner라는 클래스를 사용
 	 *  Scanner라는 클래스에 존재하는 메소드들을 호출해서 입력을 받을 수 있음.
 	 */
